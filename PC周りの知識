@@ -13,3 +13,15 @@ GUI...
 HDD...
 
 アプリケーション（アプリケーションソフト）...
+
+Javs
+
+System.out.printlen("~~~");
+
+の表記でカッコの中が出力される。
+
+変数
+
+"Hello World"   String型　Sは大文字
+
+３　　int型　Iは小文字
