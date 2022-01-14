@@ -71,3 +71,5 @@ System .out .println("佐藤さんは"　+23+ "歳です");
     System.out.println("身長は" + height +"mです");
     System.out.println("体重は"+ weight + "kgです");
     System.out.println("BMIは"+ bmi +"です");
+
+
