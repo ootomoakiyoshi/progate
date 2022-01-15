@@ -86,3 +86,5 @@ boolean bool = true;
 boolean・・・データ型
 bool・・・変数型
 true・・・値
+
+比較演算子
