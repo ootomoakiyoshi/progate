@@ -88,3 +88,9 @@ bool・・・変数型
 true・・・値
 
 比較演算子
+X == y                                          x! = y
+xとyが等しい時true　　xとyが等しくない時falesr.      xとyが等しくない時true   xとyが等しい時false
+
+6 + 2 == 5 ・・・falese        6/3 == 2　・・・true
+6 + 2 != 5 ・・・true          6/3 != 2　・・・false
+
