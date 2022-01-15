@@ -97,14 +97,41 @@ xとyが等しい時true　　xとyが等しくない時falesr.      xとyが等
 boolean bool = (3 * 9 == 27);
 System.out.println(bool);
 
-大小比較                          論理演算子　&&
+大小比較                          論理演算子　 ~かつ &&
                                    条件1 && 条件2　条件1がtrueかつ条件2もtrueであれば結果もtrue
 4 + 2 > 6　・・・false　　　　　　　　 どちらか一方でもfalseであれば結果はfalseになる。
 4 + 2>= 6 ・・・true　　　　　　　　　xが5の時　   x > 10 && x < 30 ... false
 8 / 4 < 2　・・・false             xが20の時    x > 10 && x < 30 ... true
 8 / 4 <= 2　・・・true
+x < y    yの方が大きいtrue
+x <= y   yの方が大きいまたは等しいtrue
+X > y    yの方が小さい時　true
+x >= y   yの方が小さいまたは等しい　true
+
+
 
 または || 条件1 || 条件2　条件1または条件2もどちらか一方でもtrueであれば結果もtrueになる。
 xが5の時　   x < 10 || x > 30 ... true
 xが20の時　  x < 10 || x > 30 ... false
 xが35の時　  x < 10 || x > 30 ... true
+
+~でない　　!
+
+xが20の時　　x >= 30 ・・・false
+           !(x >= 30)　・・・true
+
+System.out.println(true && false); ...false  &&はどちらもtrueではなければfalse
+System.out.println(true || false); ...true   ||は、どちらか一方がtrueであればtrueに。
+
+条件分岐
+
+    int x = 5;　　　　　　　　　　　　　　　　　　　　　int x = 5;
+    if (x > 2){                                  if (x > 2){
+      System.out.println("xは2より大きい");         System.out.println("xは2より大きい");
+    }
+
+ 変数xが2より大きいとき「xは2より大きい」と出力される。    変数xが8より小さい為、出力されない。
+
+
+
+
