@@ -94,3 +94,17 @@ xとyが等しい時true　　xとyが等しくない時falesr.      xとyが等
 6 + 2 == 5 ・・・falese        6/3 == 2　・・・true
 6 + 2 != 5 ・・・true          6/3 != 2　・・・false
 
+boolean bool = (3 * 9 == 27);
+System.out.println(bool);
+
+大小比較                          論理演算子　&&
+                                   条件1 && 条件2　条件1がtrueかつ条件2もtrueであれば結果もtrue
+4 + 2 > 6　・・・false　　　　　　　　 どちらか一方でもfalseであれば結果はfalseになる。
+4 + 2>= 6 ・・・true　　　　　　　　　xが5の時　   x > 10 && x < 30 ... false
+8 / 4 < 2　・・・false             xが20の時    x > 10 && x < 30 ... true
+8 / 4 <= 2　・・・true
+
+または || 条件1 || 条件2　条件1または条件2もどちらか一方でもtrueであれば結果もtrueになる。
+xが5の時　   x < 10 || x > 30 ... true
+xが20の時　  x < 10 || x > 30 ... false
+xが35の時　  x < 10 || x > 30 ... true
