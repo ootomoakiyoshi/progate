@@ -154,3 +154,17 @@ System.out.println("xは20以下");                     System.out.println("xは
 }                                                   }
 
 xは20より大きく、30より小さいが出力される。                xは20以下が出力
+
+switch文 if分以外の記述                           default switch文でどのcaseとも一致しない時に処理する
+
+int n = 1;　　　　　　　　　　　　　　　　　　　　　　　int n = 0;
+switch(n){                                      switch(n){
+case 1:                                         caae 1:
+System.out.println("大吉です");                   System.out.println("大吉です");
+break;                                           break;
+Case 2:                                         case 2:
+System.out.println("吉です");                     System.out.println("吉です");
+break;                                           break;
+                                                default:
+                                                 System.out.println("凶です");
+                                                 break;
