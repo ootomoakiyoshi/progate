@@ -80,4 +80,9 @@ System.out.println((double)number1 / number2);
 System.out.println()の中に（double）を入れる。
 
 真偽値
+boolean型　
+boolean bool = true;
 
+boolean・・・データ型
+bool・・・変数型
+true・・・値
