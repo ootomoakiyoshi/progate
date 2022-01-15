@@ -79,3 +79,5 @@ Int number2 =4;
 System.out.println((double)number1 / number2);
 System.out.println()の中に（double）を入れる。
 
+真偽値
+
