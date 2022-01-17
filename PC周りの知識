@@ -215,6 +215,7 @@ break;                                           break;
                                                  System.out.println("凶です");
                                                  break;
 
+
 while文
 
  int number = 10;
